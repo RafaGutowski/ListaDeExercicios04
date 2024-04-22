@@ -1,11 +1,13 @@
 package br.edu.up;
+
 public class Ponto {
 
     private double x;
     private double y;
 
-    public Ponto(){
-       double ponto = 0;
+    public Ponto() {
+        x = 0.0;
+        y = 0.0;
     }
 
     public void setX(double x) {
@@ -25,12 +27,10 @@ public class Ponto {
     }
 
     public void calcularDistancia(double x, double y){
-        this.setX(x);
-        this.setY(y);
+      
     }
 
-    public void calcularDistancia(Ponto ponto){
+    public void calcularDistancia(Ponto ponto) {
 
     }
 }
-
